@@ -23,7 +23,7 @@ class ContactController {
       name, email, phone, category_id,
     } = request.body;
 
-    if (!name || !email || !phone) {
+    if (!name || !email || !phone || !category_id) {
       return response.status(400).json({ error: 'Missing params.' });
     }
 
@@ -52,7 +52,7 @@ class ContactController {
       return response.status(404).json({ error: 'Contact not found' });
     }
 
-    if (!name || !email || !phone) {
+    if (!name || !email || !phone || !category_id) {
       return response.status(400).json({ error: 'Missing params.' });
     }
 
