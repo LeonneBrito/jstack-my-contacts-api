@@ -68,7 +68,7 @@ class ContactsRepository {
       ));
 
       resolve(updateContact);
-    }); 
+    });
   }
 
   delete(id) {
