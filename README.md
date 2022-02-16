@@ -20,7 +20,7 @@ Module 04: MyContacts API
 </p>
 
 <p align="center">
-   🚀Manage your contacts. Project developed during the fourth module of JStack course. | <a href="https://jstack.com.br/">@JStack</a>
+  📱  Manage your contacts. Project developed during the fourth module of JStack course. | <a href="https://jstack.com.br/">@JStack</a>
 </p>
 
 <div align="center">
